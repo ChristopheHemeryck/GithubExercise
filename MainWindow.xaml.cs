@@ -23,6 +23,7 @@ namespace GithubExercise
         public MainWindow()
         {
             InitializeComponent();
+            ShowMessage();
         }
         public void ShowMessage()
         {
