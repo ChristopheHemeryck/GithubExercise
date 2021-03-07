@@ -23,6 +23,11 @@ namespace GithubExercise
         public MainWindow()
         {
             InitializeComponent();
+            ShowMessage();
+        }
+        public void ShowMessage()
+        {
+            MessageBox.Show("Welcome to the wondrous world of message boxes!", "Hi Christophe");
         }
     }
 }
